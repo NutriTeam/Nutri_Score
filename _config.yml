@@ -19,6 +19,9 @@ description: "ADA 2018 - by NutriTeam"
 baseurl: "/Nutri_Score/" # the subpath of your site, e.g. /blog
 url: "https://nutriteam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  "gmathez, vbruttin, RPetitpierre"
+copyright: "2018 - NutriTeam"
+show_feedback: true
+feedback_email: "nutriteamada@gmail.com"
 
 # Build settings
 markdown: kramdown

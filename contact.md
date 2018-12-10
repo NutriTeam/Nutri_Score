@@ -16,5 +16,5 @@ Master of Science in Life Sciences engineering - <a href="mailto:gregory.mathez@
 ### Petitpierre Rémi
 Master of Science in Digital humanities - <a href="mailto:remi.petitpierre@epfl.ch" target= "blanck_">remi.petitpierre@epfl.ch</a> – <a href="https://www.linkedin.com/in/rpetitpierre/" target= "blanck_">Linkedin</a>
 
-## Question ?
+## Questions ?
 If you have questions about our project or anything, please write to us ! 

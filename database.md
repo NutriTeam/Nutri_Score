@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Open Food Facts Database 
-<image src="./image/OpenFoodFacts_logo.png" style="width:100px;height:100px;margin-left:"auto";margin-right:"auto""></image>
+<image src="./image/OpenFoodFacts_logo.png" style="width:100px;height:100px"></image>
 
 
 We will mainly use the <a href="https://world.openfoodfacts.org/">Open Food Facts</a> database, which is a collaborative open-access database. Users can contribute by taking a picture of any food product, the list of nutrients and thus provide useful information. The database contains more than 708’000 products at this day and this number is growing rapidly.

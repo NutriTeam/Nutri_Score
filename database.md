@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Open Food Facts Database 
-<image src="./image/OpenFoodFacts_logo.png" alt = "OpenFoodFacts logo" style="width:100px;height:100px;text-align:center;
+<image src="./image/OpenFoodFacts_logo.png" alt = "OpenFoodFacts logo" style="width:200px;height:200px;align:center;
 display:block" align="middle"></image>
 
 

@@ -13,8 +13,8 @@ Master of Science in Life Sciences engineering - <a href="mailto:valentin.brutti
 ### Mathez Grégory
 Master of Science in Life Sciences engineering - <a href="mailto:gregory.mathez@epfl.ch" target= "blanck_">gregory.mathez@epfl.ch</a> – <a href="https://www.linkedin.com/in/grégory-mathez-3096a09a/" target= "blanck_">Linkedin</a><br>
 
-### Petitpierre Rémi
-Master of Science in Digital humanities - <a href="mailto:remi.petitpierre@epfl.ch" target= "blanck_">remi.petitpierre@epfl.ch</a> – <a href="https://www.linkedin.com/in/rpetitpierre/" target= "blanck_">Linkedin</a>
+### Petitpierre Rémi 
+Master of Science in Digital humanities - <a href="mailto:remi.petitpierre@epfl.ch" target= "blanck_">remi.petitpierre@epfl.ch</a> – <a href="https://twitter.com/RPetitpierre" target= "blanck_">@RPetitpierre</a> – <a href="https://www.linkedin.com/in/rpetitpierre/" target= "blanck_">Linkedin</a>
 
 ## Questions ?
 If you have questions about our project or anything, please write to us ! 

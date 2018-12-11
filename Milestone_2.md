@@ -1,26 +1,6 @@
 ---
 layout: default
 ---
-# OpenFoodFacts Dataset Exploration
-
-We will not using all the column that OpenFoodFacts provided to us, we will use :
-* `code` : Barcode of the product
-* `product_name` : Name of the product 
-* `categories_tags` : Tags that describe the product into categories
-* `energy_100g` : Amount of energy in the product [kJ] per 100g/100ml
-* `fat_100g` : Amount of fats in the product [g] per 100g/100ml
-* `saturated-fat_100g` : Amount of subacategories of fats (saturated-fat) in the product [g] per 100g/100ml
-* `sugars_100g` : Amount of sugars in the product [g] per 100g/100ml
-* `salt_100g` : Amount of salt in the product [g] per 100g/100ml
-* `sodium_100g` : Amount of subcategories of salt (sodium) in the product [g] per 100g/100ml
-* `fruits-vegetables-nuts_100g` : Ratio of Fruits/Vegetables/Nuts really inside the product [%] per 100g/100ml
-* `fruits-vegetables-nuts-estimate_100g` : Ratio of Fruits/Vegetables/Nuts estimated inside the product [%] per 100g/100ml
-* `fiber_100g` : Amount of fiber in the product [g] per 100g/100ml
-* `proteins_100g` : Amount of protein in the product [g] per 100g/100ml
-* `nutrition_grade_fr` : Grade of the product (provided by OpenFoodFacts)
-* `nutrition-score-fr_100g` : Score of the product (provided by OpenFoodFacts)
-
-
 ## Data Visualisation
 ### Histograms
 We will now plot histograms of the data, as well as scatterplots and correlations. As there are numerous different histograms to plot, we serialize this process.

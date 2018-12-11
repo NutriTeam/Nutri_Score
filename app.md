@@ -18,7 +18,7 @@ Select your operating system to download  the compatible application :
 
 ### 1. Home Screen
 
-![png](./image/screen_home.png)
+![png](./image/screen_home.PNG)
 
 This is simply the home screen of the application. Nothing special here, click on the screen to continue to the following page.
 

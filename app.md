@@ -29,7 +29,7 @@ This is simply the home screen of the application. Nothing special here, click o
 
 This is the main profile screen. You have now several options :
 
-  #### 1. Create New Profile
+#### 1. Create New Profile
 
 ![png](./image/screen_profile_new.PNG)
 
@@ -37,7 +37,7 @@ Pressing the **Create New Profile** button will let you complete a settings form
 
 **_Note !_** All your personal information is stored locally in the file `AppFolder/data/profile.csv`. Every piece of information can be modified directly by end. *Be careful not to corrupt data.* **No information is collected by NutriTeam as everything is dealt with locally.**
 
-  #### 2. Select profile
+#### 2. Select profile
 
 ![png](./image/screen_profile_select.PNG)
 
@@ -47,13 +47,13 @@ Pressing the **Select Profile** button will let you choose between already exist
 
 Once you selected the appropriate profile, you can press the **Validate** button which is now activated.
 
-  #### 3. Pass
+#### 3. Pass
 
 ![png](./image/screen_profile_pass.PNG)
 
 If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](###-4.-product-screen). However, you will only get the NutriScore grade and not receive any other recommendations.
 
-  #### 4. Update
+#### 4. Update
 
 ![png](./image/screen_profile_update.PNG)
 

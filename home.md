@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 # Welcome dear visitor
 Have you ever wondered how to eat better without (too much) changing? How to find the best product right away, without wasting hours deciphering labels? You have come to the right place. __Extending NutriScore__ project opens new perspectives for dietetics and healthier eating. This data story will present you everything you need to know about our application. 

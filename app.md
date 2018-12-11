@@ -24,8 +24,10 @@ This is simply the home screen of the application. Nothing special here, click o
 
 ### 2. Profile screen
 
-![png](./image/screen_profile_new.png)
+![png](./image/screen_profile.png)
 
 This is the main profile screen. You have now several options :
 
 1. Create New Profile
+
+![png](./image/screen_profile_new.png)

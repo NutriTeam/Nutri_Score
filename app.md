@@ -48,7 +48,7 @@ Once you selected the appropriate profile, you can press the **Validate** button
 
 3. Pass
 
-If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](#productscreen)
+If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](### 4. Product Screen)
 
 
 
@@ -59,4 +59,4 @@ If you choose not to create a profile, you can press the **Pass** button which w
 
 
 
-### 4. Product Screen<a name=productscreen></a>
+### 4. Product Screen

@@ -24,10 +24,18 @@ This is simply the home screen of the application. Nothing special here, click o
 
 ### 2. Profile screen
 
-![png](./image/screen_profile.png)
+![png](./image/screen_profile.PNG)
 
 This is the main profile screen. You have now several options :
 
 1. Create New Profile
 
-![png](./image/screen_profile_new.png)
+![png](./image/screen_profile_new.PNG)
+
+Pressing the **Create New Profile** will let you complete a settings form in order to store the information needed for the recommendation e-mail.
+
+**_Note !_** All your personal information is stored locally in the file `AppFolder/data/profile.csv`. Every piece of information can be modified directily by end. *Be careful not to corrupt data.* **No information is collected by NutriTeam as everything is dealt with locally.**
+
+2. Select profile
+
+![png](./image/screen_profile_select.PNG)

@@ -42,17 +42,21 @@ Pressing the **Create New Profile** button will let you complete a settings form
 
 Pressing the **Select Profile** button will let you choose between already existing profiles. You will later be able to modify this profile if there is any error in the form. If no profile was created before, this list will be empty and you should instead create a new profile.
 
-![png](./image/screen_profile_select.PNG)
+![png](./image/screen_profile_select_validate.PNG)
 
 Once you selected the appropriate profile, you can press the **Validate** button which is now activated.
 
 3. Pass
 
-If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](###-4.-product-screen)
+![png](./image/screen_profile_pass.PNG)
 
+If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](###-4.-product-screen). However, you will only get the NutriScore grade and not receive any other recommendations.
 
+4. Upgrade
 
+![png](./image/screen_profile_upgrade.PNG)
 
+As the database of *OpenFoodFacts* grows and improves daily, you might want to update the local database frequently, which can be done pressing this button.
 
 ### 3. Settings Screen
 

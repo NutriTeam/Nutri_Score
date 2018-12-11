@@ -2,4 +2,6 @@
 layout: default
 ---
 
-# APP
+# Application
+
+## Goals

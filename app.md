@@ -9,11 +9,11 @@ title: App
 
 Select your operating system to download  the compatible application :
 
-* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blanck">Windows</a><span class="badge badge-success">Available</span>
-* <a href="https://www.youtube.com/watch?v=Um7pMggPnug" target="_blanck">Linux</a><span class="badge badge-info">Not Available</span>
-* <a href="https://www.youtube.com/watch?v=y6120QOlsfU" target="_blanck">OSX</a><span class="badge badge-info">Not Available</span>
-* <a href="https://www.youtube.com/watch?v=L_jWHffIx5E" target="_blanck">Android</a><span class="badge badge-info">Not Available</span>
-* <a href="https://www.youtube.com/watch?v=rvrZJ5C_Nwg" target="_blanck">iOS</a><span class="badge badge-info">Not Available</span>
+* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blanck">Windows</a>&ensp;<span class="badge badge-success">Available</span>
+* <a href="https://www.youtube.com/watch?v=Um7pMggPnug" target="_blanck">Linux</a>&ensp;<span class="badge badge-info">Not Available</span>
+* <a href="https://www.youtube.com/watch?v=y6120QOlsfU" target="_blanck">OSX</a>&ensp;<span class="badge badge-info">Not Available</span>
+* <a href="https://www.youtube.com/watch?v=L_jWHffIx5E" target="_blanck">Android</a>&ensp;<span class="badge badge-info">Not Available</span>
+* <a href="https://www.youtube.com/watch?v=rvrZJ5C_Nwg" target="_blanck">iOS</a>&ensp;<span class="badge badge-info">Not Available</span>
 
 
 ## How to ?

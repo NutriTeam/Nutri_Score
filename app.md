@@ -9,10 +9,10 @@ title: App
 
 Select your operating system to download  the compatible application :
 
-* [Windows](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-* [OSX](https://www.youtube.com/watch?v=y6120QOlsfU)
-* [Android](https://www.youtube.com/watch?v=L_jWHffIx5E)
-* [iOS](https://www.youtube.com/watch?v=rvrZJ5C_Nwg)
+* [Windows](https://www.youtube.com/watch?v=dQw4w9WgXcQ) <span class="badge badge-success">Available</span>
+* [OSX](https://www.youtube.com/watch?v=y6120QOlsfU) <span class="badge badge-info">Not Available</span>
+* [Android](https://www.youtube.com/watch?v=L_jWHffIx5E) <span class="badge badge-info">Not Available</span>
+* [iOS](https://www.youtube.com/watch?v=rvrZJ5C_Nwg) <span class="badge badge-info">Not Available</span>
 
 
 ## How to ?

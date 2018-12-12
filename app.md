@@ -89,7 +89,7 @@ You can also go back to the [Profile Screen](###-2.-profile-screen) by pressing 
 
 ### 4. Product Screen
 
-![png](./image/screen_profile.PNG)
+![png](./image/screen_product.PNG)
 
 This is the most crucial screen of the application. Therefore, it is also the one most needs further improvements in both our algorithm and the *OpenFoodFacts* database.
 
@@ -99,13 +99,47 @@ The point of the screen is to select the different foods that make up the diet y
 
 Those are the products found in the database of *OpenFoodFacts*. These products have a **barcode**, a **product name** and a **brand**. It is possible to search for these different parameters in two ways : either with the barcode (partial or complete), either with keywords present in the product name and the brand.
 
-Searching with keywords can be very troublesome. Indeed, some products have many kinds of variations in shape, size, volume, design and so on. That is especially true for beverages as it exists for the same kind of product many different type of bottles (250ml, 330ml, 0.75l, 1l, 1.5l, 2l, 1 gallon, ...) and often limited editions. The problem is that they will all have the same name in the *OpenFoodFacts* database, but different barcodes.
+Searching with keywords can be very troublesome. Indeed, some products have many kinds of variations in shape, size, volume, design and so on. That is especially true for beverages as it exists for the same kind of product many different type of bottles (250ml, 330ml, 0.75l, 1l, 1.5l, 2l, 1 gallon, ...) and often limited editions. The problem is that they will all have the same name in the *OpenFoodFacts* database, but different barcodes. As the nutritional values are scaled to 100g or 100ml, products of different sizes should be the same, but it tends to jeopardize the quality of the database as it is prone to errors.
 
 Example of trouble :
 
-![png](./image/screen_profile_coca.PNG)
+![png](./image/screen_product_coca.PNG)
+
+For all this reasons, NutriTeam advise you to search your product using the **barcode**. It is not necessary to input the whole code, a subset of it is sufficient. This way seems more efficient to find the right product.
+
+Example :
+
+![png](./image/screen_product_code.PNG)
+
+In case no product matches your query, a warning message is displayed.
+
+![png](./image/screen_product_warning.PNG)
+
+#### 2. Raw Food
+
+A large part of the food we buy does not belong to a brand. That is what we call *raw food*. For example, fruits, vegetables, unprocessed meat or fish fall into this category. All those products are not included in the *OpenFoodFacts* database. Therefore, we provide another way to get the nutritional values, base on an API.
+
+In order to add this kind of product, you have to activate the checkbox **Raw Food**, then write the product name and press enter. Only one product will displayed.
+
+![png](./image/screen_product_api.PNG
 
 
+Once you found the desired product, click on it. The product should now appear highlighted in green.
+
+**_Note !_** The list of product can be quite long, you might have to scroll down.
+
+![png](./image/screen_product_selection.PNG)
+
+Once you selected the desired product, press the **Add** button or the **Remove** button if you made a mistake. In case you made a mistake without realizing it, it can still be dealt with later, so do not worry !
+
+You can then search the next product.
+
+**_Bug report_** When you search for another product, the green highlight will remain on the screen. However, the product under the highlight is not considered selected. You still have to press the desired product, else no product will be added or removed.
+
+
+![png](./image/screen__product_validation.PNG)
+
+Once you added all the products that make up your diet you can press the **Validate** button.
 
 
 
@@ -120,7 +154,7 @@ Example of trouble :
 
 
 
-### 5. Quantity Screen
+### 5. Quantities Screen
 
 
 ### 6. Final Screen

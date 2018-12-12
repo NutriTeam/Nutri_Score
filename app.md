@@ -87,3 +87,46 @@ Once again, it is possible to pass the profile, by pressing the **Pass** button.
 You can also go back to the [Profile Screen](###-2.-profile-screen) by pressing on the **Back** button
 
 ### 4. Product Screen
+
+![png](./image/screen_profile.PNG)
+
+This is the most crucial screen of the application. Therefore, it is also the one most needs further improvements in both our algorithm and the *OpenFoodFacts* database.
+
+The point of the screen is to select the different foods that make up the diet you want to analyse. There are several ways of searching an item, according to its nature, i.e *industrial, processed food* or *raw food*.
+
+#### 1. Industrial Processed Food
+
+Those are the products found in the database of *OpenFoodFacts*. These products have a **barcode**, a **product name** and a **brand**. It is possible to search for these different parameters in two ways : either with the barcode (partial or complete), either with keywords present in the product name and the brand.
+
+Searching with keywords can be very troublesome. Indeed, some products have many kinds of variations in shape, size, volume, design and so on. That is especially true for beverages as it exists for the same kind of product many different type of bottles (250ml, 330ml, 0.75l, 1l, 1.5l, 2l, 1 gallon, ...) and often limited editions. The problem is that they will all have the same name in the *OpenFoodFacts* database, but different barcodes.
+
+Example of trouble :
+
+![png](./image/screen_profile_coca.PNG)
+
+
+
+
+
+
+
+
+
+![png](./image/screen_profile_name.PNG)
+
+
+
+
+
+
+### 5. Quantity Screen
+
+
+### 6. Final Screen
+
+
+
+### 7. E-mail
+
+
+## Demo

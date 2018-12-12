@@ -18,3 +18,24 @@ To do this, we will retrieve the selected products from the database but also, i
 ## Recommendations
 On the basis of the quantities of nutritional values provided by the previous algorithm and the daily recommendations defined by the Swiss Society of Nutrition (SSN), we can indicate to our users where they stand in their nutrition.  We can therefore indicate to him the weaknesses and advantages of his diet, which allows him to make clear choices to improve it. 
 
+## Healthier products
+Finally, to improve the nutrition of our user, we have developed an algorithm to offer products with a better score than the one eaten. 
+To do this, we calculated the score and grade of each product contained in the database.
+
+![png](./image/grade_proportion.png)
+
+We can see that the error rate is low. This is due to our data completion algorithm. We also observe that this is an almost uniform distribution.
+
+Based on this data, our algorithm for searching for healthier products is based on one of the most specific tags of the product selected by the user. It then searches for products that have the same tag and looks at their respective scores. Our algorithm will then find the product with the lowest score. If it does not find, the selected product is considered as the healthiest product in its category. 
+
+To give you an idea, we have calculated for all tags used more than 10 times in the database the minimum score.
+
+![png](./image/min_score.png)
+
+We also calculated the difference between the score of each product and the minimum score for its category. 
+
+![png](./image/diff_score.png)
+
+To give an even better idea of the distribution of scores by tags, we have also calculated the maximum score. We then represent this graph as a scatter plot where the darker the point, the more tags are located at that point. 
+
+![png](./image/max_min_score.png)

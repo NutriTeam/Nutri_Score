@@ -52,7 +52,7 @@ Once you selected the appropriate profile, you can press the **Validate** button
 
 ![png](./image/screen_profile_pass.PNG)
 
-If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](###-4.-product-screen). However, you will only get the NutriScore grade and not receive any other recommendations.
+If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](#ProductScreen). However, you will only get the NutriScore grade and not receive any other recommendations.
 
 #### 4. Update
 
@@ -87,7 +87,7 @@ Once again, it is possible to pass the profile, by pressing the **Pass** button.
 
 You can also go back to the [Profile Screen](###-2.-profile-screen) by pressing on the **Back** button
 
-### 4. Product Screen
+<h3 id="ProductScreen">4. Product Screen</h3>
 
 ![png](./image/screen_product.PNG)
 

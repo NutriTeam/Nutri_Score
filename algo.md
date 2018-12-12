@@ -1,5 +1,6 @@
 ---
 layout: default
+title: algo
 ---
+# Algorithm
 
-# Algo

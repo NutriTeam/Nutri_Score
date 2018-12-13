@@ -5,6 +5,18 @@ title: App
 
 # Application
 
+* [Download](#download)
+* [How to ?](#how_to_)
+  1. [Home Screen](#1-home-screen)
+  2. [Profile Screen](#2-profile-screen)
+  3. [Settings Screen](#3-settings-screen)
+  4. [Product Screen](#4-product-screen)
+  5. [Quantities Screen](#5-quantities-screen)
+  6. [Final Screen](#6-final-screen)
+  7. [E-mail](#7-e-mail)
+* [Demo](#demo)
+
+
 ## Download
 
 Select your operating system to download  the compatible application :

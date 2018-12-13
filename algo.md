@@ -6,7 +6,7 @@ title: Algo
 We have created several algorithms that take place at different time in the software. There implementation helps to achieve the computation of the NutriScore, the creation of nutrient recommendations and the proposal of a healthier product for users.
 
 ## NutriScore
-This algorithm evolved during the project. The first version, based on the document from the french Ministry of Agriculture, was developed to compute the NutriScore of a single product. The precision of this first version was satisfying, in comparison with the actual NutriScore of the database, as it is explained in the ''Data visualization'' page. 
+This algorithm evolved during the project. The first version, based on the document from the french Ministry of Agriculture, was developed to compute the NutriScore of a single product. The precision of this first version was satisfying, in comparison with the actual NutriScore of the database, as it is explained in the <a href="./Milestone_2.html">''Data visualization''</a> page. 
 
 This algorithm takes into account different aspects of the food. First, it determines whether or not it is a drink. Indeed, the computation rules are not the same between solid and liquid products. For beverages, for example, only pure water can get the grade A. In general, we have to take into account both positive (e.g high fruits/veg/nuts content) and negative points (e.g high amount of sugar) to determine the final grade of a product.
 
@@ -18,7 +18,7 @@ In our software design, we needed to think at a more global scope. Indeed, we wa
 On the basis of the quantities of nutritional values provided by the previous algorithm and the daily recommendations defined by the Swiss Society of Nutrition (SSN), one can indicate to users where they stand in their nutrition. The main weaknesses and advantages of the user's diet can be clearly outlined and this information can provide interesting insights to the user about how to improve his diet. The neutral and factual result delivered to him also tries to avoid taking a moralizing tone, which can often be counter-productive.
 
 ## Healthier products
-Finally, to improve the diet of our user, an algorithm was developped in order to offer products with a better score than the ones actually consumed. To this extend, the score and grade of each product contained in the database were computed beforehand. This results in a very small pressure on the memory (only 30 Mb) but in great improvement in terms of computation time, which is a good compromise and allows a higher reactivity.
+Finally, to improve the diet of our user, an algorithm was developped in order to offer products with a better score than the ones actually consumed. To this extend, the score and grade of each product contained in the database were computed beforehand. This results is a very small pressure on the memory (only 30 Mb) but in great improvement in terms of computation time, which is a good compromise and allows a higher reactivity.
 
 ![png](./image/grade_proportion.png)
 

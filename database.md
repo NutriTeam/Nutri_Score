@@ -34,7 +34,7 @@ We decided to focus on only part of the information available in the database. W
 ## Detection of errors
 On this basis of information, we found several errors. 
 
-Some values were negative which is inconsistent with nutritional values. Then, for energy, we decided to consider as an error the products with more than 4'000 kJ. Indeed, 99% of the data is below this value and then there is a significant jump to the maximum. The salt to sodium ratio of 2.5 is also not respected. As well as the fact that saturated fats cannot be higher than the total original fat. We also calculated theoretical energy based on fat, carbohydrates, protein and fibre to detect and correct these inconsistencies. You can see these detections in the section: <a href="./Milestone_2.html">Data visualization</a> of our data story.
+Some values were negative which is inconsistent with nutritional values. Then, for energy, we decided to consider as an error the products with more than 4'000 kJ. We fix this threshold according to the fact that is represented by the mean of energy multiply by 0.17 the standard deviation. The salt to sodium ratio of 2.5 is also not respected. As well as the fact that saturated fats cannot be higher than the total original fat. We also calculated theoretical energy based on fat, carbohydrates, protein and fibre to detect and correct these inconsistencies. You can see these detections in the section: <a href="./Milestone_2.html">Data visualization</a> of our data story.
 
 ## Filling
 This error correction has already allowed us to pre-fill the database. But there was still a need to improve the missing data. So we built an algorithm based on the product tags.

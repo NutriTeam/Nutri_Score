@@ -139,14 +139,14 @@ You can then search the next product.
 
 **_Bug report_** When you search for another product, the green highlight will remain on the screen. However, the product under the highlight is not considered selected. You still have to press the desired product, else no product will be added or removed.
 
-![png](./image/screen__product_validation.PNG)
+![png](./image/screen_product_validation.PNG)
 
 Once you added all the products that make up your diet you can press the **Validate** button.
 
 
 ### 5. Quantities Screen
 
-![png](./image/screen_quantities.PNG)
+![png](./image/screen_quantities.png)
 
 
 ### 6. Final Screen

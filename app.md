@@ -149,7 +149,7 @@ Once you selected the desired product, press the **Add** button or the **Remove*
 
 You can then search the next product.
 
-**_Bug report_** When you search for another product, the green highlight will remain on the screen. However, the product under the highlight is not considered selected. You still have to press the desired product, else no product will be added or removed. This bug cannot be solved, as the clear method is still on the <a href="https://kivy.org/doc/stable/api-kivy.uix.recycleview.html?highlight=recycleview#module-kivy.uix.recycleview" target="_blanck">TO DO list of Kivy</a>
+**_Bug report_** When you search for another product, the green highlight will remain on the screen. However, the product under the highlight is not considered selected. You still have to press the desired product, else no product will be added or removed. This bug cannot be solved, as the clear method is still on the <a href="https://kivy.org/doc/stable/api-kivy.uix.recycleview.html?highlight=recycleview#module-kivy.uix.recycleview" target="_blanck">TO DO list of Kivy</a>.
 
 ![png](./image/screen_product_validation.PNG)
 

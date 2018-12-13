@@ -85,7 +85,7 @@ Once again, it is possible to pass the profile, by pressing the **Pass** button.
 
 ![png](./image/screen_settings_pass.PNG)
 
-You can also go back to the [Profile Screen](###-2.-profile-screen) by pressing on the **Back** button
+You can also go back to the [Profile Screen](#2.-profile-screen) by pressing on the **Back** button
 
 <h3 id="ProductScreen">4. Product Screen</h3>
 

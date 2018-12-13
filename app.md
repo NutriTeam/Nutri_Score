@@ -121,8 +121,7 @@ A large part of the food we buy does not belong to a brand. That is what we call
 
 In order to add this kind of product, you have to activate the checkbox **Raw Food**, then write the product name and press enter. Only one product will displayed.
 
-![png](./image/screen_product_api.PNG
-
+![png](./image/screen_product_api.PNG)
 
 Once you found the desired product, click on it. The product should now appear highlighted in green.
 
@@ -132,29 +131,22 @@ Once you found the desired product, click on it. The product should now appear h
 
 Once you selected the desired product, press the **Add** button or the **Remove** button if you made a mistake. In case you made a mistake without realizing it, it can still be dealt with later, so do not worry !
 
+![png](./image/screen_product_add.PNG)
+
+![png](./image/screen_product_remove.PNG)
+
 You can then search the next product.
 
 **_Bug report_** When you search for another product, the green highlight will remain on the screen. However, the product under the highlight is not considered selected. You still have to press the desired product, else no product will be added or removed.
-
 
 ![png](./image/screen__product_validation.PNG)
 
 Once you added all the products that make up your diet you can press the **Validate** button.
 
 
-
-
-
-
-
-![png](./image/screen_profile_name.PNG)
-
-
-
-
-
-
 ### 5. Quantities Screen
+
+![png](./image/screen_quantities.PNG)
 
 
 ### 6. Final Screen

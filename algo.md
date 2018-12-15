@@ -20,7 +20,7 @@ On the basis of the quantities of nutritional values provided by the previous al
 ## Healthier products
 Finally, to improve the diet of our user, an algorithm was developped in order to offer products with a better score than the ones actually consumed. To this extend, the score and grade of each product contained in the database were computed beforehand. This results is a very small pressure on the memory (only 30 Mb) but in great improvement in terms of computation time, which is a good compromise and allows a higher reactivity.
 
-![png](./image/grade_proportion.png)
+<p style="text-align:center;"><img src="./image/grade_proportion.png" alt = "Grade proportion"></p>
 
 One can see that the error rate is low. This is due to the preprocessing, which includes a data completion algorithm. The latter quite successfully helps to fill missing information. One can also notice that the distribution is nearly uniform.
 
@@ -30,15 +30,15 @@ The algorithm which provides this recommandation is based on one of the most spe
 
 To give you an idea, we have calculated the minimum score (= the better score) for all tags that are used more than 10 times in the database
 
-![png](./image/min_score.png)
+<p style="text-align:center;"><img src="./image/min_score.png" alt = "Min score products"></p>
 
 We also calculated the difference between the score of each product and the minimum score (= the better score) for its category. One can observe that significant improvement can be brought to one's diet while continuing to eat the same kind of products.
 
-![png](./image/diff_score.png)
+<p style="text-align:center;"><img src="./image/diff_score.png" alt = "Difference between scores"></p>
 
 To give an even better idea of the distribution of scores by tags, we also plotted the relation between maximal (= worst) and minimal (= best) scores in a single same category. This is then represented in this graph as a density-discernible scatter plot where the darker the point, the more tags are located at that point. 
 
-![png](./image/max_min_score.png)
+<p style="text-align:center;"><img src="./image/max_min_score.png" alt = "Scatter plot Max and Min score"></p>
 
 In these three graphs, one can see that the minimum scores are distributed everywhere. The healthiest products do not necessarily have a good grade. Of course, one can give a reason for this. This may be a class of products to avoid initially, such as mayonnaise, for example. Nevertheless, we will try to propose the best of these "bad products" to the user, and that is already a big improvement in some cases. One can also observe that the differences between products can be very large. In one case, we notice a significant difference of 51 in score. This huge difference can be observed at the top left of the last plot. This is actually one of the largest tags. As almost all products in the database contain this tag, this great difference can then be considered as a simple artifact in itself because it represents the maximum difference between all products.
 

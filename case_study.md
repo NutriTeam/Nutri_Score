@@ -8,14 +8,14 @@ tite: Case study
       <a class="page-link" href="./app.html">Previous</a>
     </li>
     <li class="page-item"><a class="page-link" href="./app.html">User guide</a></li>
-    <li class="page-item"><a class="page-link" href="#">Telling Story</a></li>
+    <li class="page-item"><a class="page-link" href="#">Storytelling</a></li>
     <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1">Next</a>
     </li>
   </ul>
 </nav>
 
-# Telling story
+# Storytelling
 
 ## Abstract
 

@@ -2,18 +2,6 @@
 layout: default
 title: Algo
 ---
-<nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-end">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">User guide</a></li>
-    <li class="page-item"><a class="page-link" href="./case_study.htlm">Telling Story</a></li>
-    <li class="page-item">
-      <a class="page-link" href="./case_study.htlm">Next</a>
-    </li>
-  </ul>
-</nav>
 # Algorithm
 We have created several algorithms that take place at different time in the software. There implementation helps to achieve the computation of the NutriScore, the creation of nutrient recommendations and the proposal of a healthier product for users.
 

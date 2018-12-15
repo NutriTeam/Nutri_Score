@@ -4,12 +4,12 @@ tite: Case study
 ---
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-end">
-    <li class="page-item disabled">
+    <li class="page-item">
       <a class="page-link" href="./app.html">Previous</a>
     </li>
     <li class="page-item"><a class="page-link" href="./app.html">User guide</a></li>
     <li class="page-item"><a class="page-link" href="#">Telling Story</a></li>
-    <li class="page-item">
+    <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1">Next</a>
     </li>
   </ul>

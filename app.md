@@ -44,19 +44,19 @@ Select your operating system to download  the compatible application :
 
 ### 1. Home Screen
 
-![png](./image/screen_home.PNG)
+<p style="text-align:center;"><img src="./image/screen_home.PNG" alt = "Home Screen" class="img_app"></p>
 
 This is simply the home screen of the application. Nothing special here, click on the screen to continue to the following page.
 
 ### 2. Profile Screen
 
-![png](./image/screen_profile.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile.PNG" alt = "Screen Profile" class="img_app"></p>
 
 This is the main profile screen. You have now several options :
 
 #### 1. Create New Profile
 
-![png](./image/screen_profile_new.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile_new.PNG" alt = "Screen Profile New" class="img_app"></p>
 
 Pressing the **Create New Profile** button will let you complete a settings form in order to store the information needed for the recommendation e-mail.
 
@@ -64,32 +64,32 @@ Pressing the **Create New Profile** button will let you complete a settings form
 
 #### 2. Select profile
 
-![png](./image/screen_profile_select.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile_select.PNG" alt = "Screen Profile selected" class="img_app"></p>
 
 Pressing the **Select Profile** button will let you choose between already existing profiles. You will later be able to modify this profile if there is any error in the form. If no profile was created before, this list will be empty and you should instead create a new profile.
 
-![png](./image/screen_profile_select_validate.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile_select_validate.PNG" alt = "Screen Profile Validate" class="img_app"></p>
 
 Once you selected the appropriate profile, you can press the **Validate** button which is now activated.
 
 #### 3. Pass
 
-![png](./image/screen_profile_pass.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile_pass.PNG" alt = "Screen Profile Pass" class="img_app"></p>
 
 If you choose not to create a profile, you can press the **Pass** button which will bring you directly to the [Product Screen](#4-product-screen). However, you will only get the NutriScore grade and not receive any other recommendations.
 
 #### 4. Update
 
-![png](./image/screen_profile_updating.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile_updating.PNG" alt = "Screen Profile Updating" class="img_app"></p>
 
 As the database of *OpenFoodFacts* grows and improves daily, you might want to update the local database frequently, which can be done pressing this button. The button turns blue when it is updating. *Wait, do not press other buttons to avoid crashing the application !* Then, it turns green when the update is finished.
 
-![png](./image/screen_profile_update.PNG)
+<p style="text-align:center;"><img src="./image/screen_profile_update.PNG" alt = "Screen Profile Update" class="img_app"></p>
 
 
 ### 3. Settings Screen
 
-![png](./image/screen_settings.PNG)
+<p style="text-align:center;"><img src="./image/screen_settings.PNG" alt = "Screen Settings" class="img_app"></p>
 
 The Settings Screen is an optional screen. You can input your personal information in order to complete your profile. A complete profile will enable the recommendation e-mail.
 The profile need the following information :
@@ -107,17 +107,17 @@ If input data do not correspond to the criteria, the fields concerned will be re
 
 Here is an example of a completed profile :
 
-![png](./image/screen_settings_profile.PNG)
+<p style="text-align:center;"><img src="./image/screen_settings_profile.PNG" alt = "Screen Settings Profile" class="img_app"></p>
 
 Once again, it is possible to pass the profile, by pressing the **Pass** button. You will then not have any recommendation e-mail.
 
-![png](./image/screen_settings_pass.PNG)
+<p style="text-align:center;"><img src="./image/screen_settings_pass.PNG" alt = "Screen Settings Pass" class="img_app"></p>
 
 You can also go back to the [Profile Screen](#2-profile-screen) by pressing on the **Back** button
 
 ## 4. Product Screen
 
-![png](./image/screen_product.PNG)
+<p style="text-align:center;"><img src="./image/screen_product.PNG" alt = "Screen Product" class="img_app"></p>
 
 This is the most crucial screen of the application. Therefore, it is also the one most needs further improvements in both our algorithm and the *OpenFoodFacts* database.
 
@@ -131,17 +131,17 @@ Searching with keywords can be very troublesome. Indeed, some products have many
 
 Example of trouble :
 
-![png](./image/screen_product_coca.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_coca.PNG" alt = "Screen Product Coca" class="img_app"></p>
 
 For all this reasons, NutriTeam advise you to search your product using the **barcode**. It is not necessary to input the whole code, a subset of it is sufficient. This way seems more efficient to find the right product.
 
 Example :
 
-![png](./image/screen_product_code.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_code.PNG" alt = "Screen Product code" class="img_app"></p>
 
 In case no product matches your query, a warning message is displayed.
 
-![png](./image/screen_product_warning.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_warning.PNG" alt = "Screen Product Warning" class="img_app"></p>
 
 #### 2. Raw Food
 
@@ -149,53 +149,53 @@ A large part of the food we buy does not belong to a brand. That is what we call
 
 In order to add this kind of product, you have to activate the checkbox **Raw Food**, then write the product name and press enter. Only one product will displayed.
 
-![png](./image/screen_product_api.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_api.PNG" alt = "Screen Product API" class="img_app"></p>
 
 Once you found the desired product, click on it. The product should now appear highlighted in green.
 
 **_Note !_** The list of product can be quite long, you might have to scroll down.
 
-![png](./image/screen_product_selection.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_selection.PNG" alt = "Screen Product Selected" class="img_app"></p>
 
 Once you selected the desired product, press the **Add** button or the **Remove** button if you made a mistake. In case you made a mistake without realizing it, it can still be dealt with later, so do not worry !
 
-![png](./image/screen_product_add.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_add.PNG" alt = "Screen Product Add" class="img_app"></p>
 
-![png](./image/screen_product_remove.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_remove.PNG" alt = "Screen Product Remove" class="img_app"></p>
 
 You can then search the next product.
 
 **_Bug report_** When you search for another product, the green highlight will remain on the screen. However, the product under the highlight is not considered selected. You still have to press the desired product, else no product will be added or removed. This bug cannot be solved, as the clear method is still on the <a href="https://kivy.org/doc/stable/api-kivy.uix.recycleview.html?highlight=recycleview#module-kivy.uix.recycleview" target="_blanck">TO DO list of Kivy</a>.
 
-![png](./image/screen_product_validation.PNG)
+<p style="text-align:center;"><img src="./image/screen_product_validation.PNG" alt = "Screen Product Validated" class="img_app"></p>
 
 Once you added all the products that make up your diet you can press the **Validate** button.
 
 
 ### 5. Quantities Screen
 
-![png](./image/screen_quantities.png)
+<p style="text-align:center;"><img src="./image/screen_quantities.png" alt = "Screen Quantities" class="img_app"></p>
 
 This screen is dedicated to the entry of quantities consumed by products. Each value has to be input individually, as a positive integer in grams or mililiters, according if it is solid food or beverages. If by mistake there is one or more unwanted products, it is possible to leave the quantity at 0 instead of returning to the [Product Screen](#4-product-screen) to remove it. In order to save a quantity, it is necessary to press the **Add** button of each product.
 
 **_Bug report_** There is a display bug with the **Add** button. The *on_press* animation happens on another button of the list, for unknown reasons. However, it is indeed the button you pressed which will save the quantity value of its corresponding product.
 
 Example of filled in quantities :
-![png](./image/screen_quantities_filled.png)
+<p style="text-align:center;"><img src="./image/screen_quantities_filled.png" alt = "Screen Quantites Filled" class="img_app"></p>
 
 When all desired quantities are entered, you can press the **Validate** button.
 
-![png](./image/screen_quantities_validate.png)
+<p style="text-align:center;"><img src="./image/screen_quantities_validate.png" alt = "Screen Quantities Validated" class="img_app"></p>
 
 ### 6. Final Screen
 
-![png](./image/screen_results.PNG)
+<p style="text-align:center;"><img src="./image/screen_results.PNG" alt = "Screen Results" class="img_app"></p>
 
 This is the final screen of this application. While the screen looks like the image above, the application is computing the Nutri-Scores. *Wait, do not press other buttons to avoid crashing the application !*
 
 Finally, the results will be displayed as in the image below.
 
-![png](./image/screen_results_grades.PNG)
+<p style="text-align:center;"><img src="./image/screen_results_grades.PNG" alt = "Screen Results Grade" class="img_app"></p>
 
 ### 7. E-mail
 
@@ -207,26 +207,26 @@ The E-mail is organized in several categories.
 
 This is a reminder of the Nutri-Scores.
 
-![png](./image/email_1.PNG)
+<p style="text-align:center;"><img src="./image/email_1.PNG" alt = "Email 1" class="img_app"></p>
 
 #### 2. Recommendation
 
 This is recommendations according to your diet. The reference values come from <a href="http://www.sge-ssn.ch/fr/science-et-recherche/denrees-alimentaires-et-nutriments/recommandations-nutritionnelles/valeurs-de-reference-dach/" target="_blanck"
 	>Société Suisse de Nutrition (SSN)</a>. These recommendations are not for medical use and have been computed from <a href="https://world.openfoodfacts.org/" target="_blanck">	Open Food Facts</a> database.
 
-![png](./image/email_2.PNG)
+<p style="text-align:center;"><img src="./image/email_2.PNG" alt = "Email 2" class="img_app"></p>
 
 #### 3. Healthier product
 
 These are recommendations concerning the choice of your products. According to its category, it is determined if a product is the best one or if there is a better product. If so, this better product is suggested to you.
 
-![png](./image/email_3.PNG)
+<p style="text-align:center;"><img src="./image/email_3.PNG" alt = "Email 3" class="img_app"></p>
 
 #### 4. Selected products
 
 This is a reminder of the products you selected. They are linked to their page on *OpenFoodFacts*. You are strongly encouraged to look at these pages and correct/complete them if you find mistakes. That will let you improve *OpenFoodFacts* database, and therefore, this application.
 
-![png](./image/email_4.PNG)
+<p style="text-align:center;"><img src="./image/email_4.PNG" alt = "Email 4" class="img_app"></p>
 
 
 ## Demo

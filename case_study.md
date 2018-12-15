@@ -25,8 +25,11 @@ This Thursday, Rémi started the day with a bowl of cereals, whole wheat biscuit
 In the evening, Rémi decided to calculate his NutriScore using the application he had downloaded from Github. It starts by entering the information that the application requires.
 
 Age: 23
+
 Sex: Male
+
 Weight: 54 kg
+
 Activity: low
 
 ## Diet summary
@@ -65,7 +68,7 @@ Then he summarizes what he ate during the day and enters the food one after the 
 ## Results
 After waiting a few seconds, he receives an email giving him the results of his test.
 
-![png](./image/email.png)
+![png](./image/storytelling_mail.png)
 
 ## Conclusion
 Noting that he probably didn't eat enough today, Rémi will look for something to complement his intake.  He also notes the recommended products he will try to find at the supermarket next time. Thanks to the application, Rémi has been able to partially rebalance his diet and keeps in mind the points on which he can improve.

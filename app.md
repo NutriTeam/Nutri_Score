@@ -3,6 +3,19 @@ layout: default
 title: App
 ---
 
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">User guide</a></li>
+    <li class="page-item"><a class="page-link" href="./case_study.htlm">Telling Story</a></li>
+    <li class="page-item">
+      <a class="page-link" href="./case_study.htlm">Next</a>
+    </li>
+  </ul>
+</nav>
+
 # Application
 
 * [Download](#download)
@@ -68,9 +81,12 @@ If you choose not to create a profile, you can press the **Pass** button which w
 
 #### 4. Update
 
+![png](./image/screen_profile_updating.PNG)
+
+As the database of *OpenFoodFacts* grows and improves daily, you might want to update the local database frequently, which can be done pressing this button. The button turns blue when it is updating. *Wait, do not press other buttons to avoid crashing the application !* Then, it turns green when the update is finished.
+
 ![png](./image/screen_profile_update.PNG)
 
-As the database of *OpenFoodFacts* grows and improves daily, you might want to update the local database frequently, which can be done pressing this button.
 
 ### 3. Settings Screen
 
@@ -80,12 +96,13 @@ The Settings Screen is an optional screen. You can input your personal informati
 The profile need the following information :
 1. **Name** : Enter your name (It can be a pseudo, as it is used to distinguish the profiles and personalize the e-mail.)
 2. **Surname** : Enter your surname (It can be a pseudo, as it is used to distinguish the profiles and personalize the e-mail.)
-3. **Age** : Enter your age, in years. It must be a whole number between 1 and 120. It is used for the computation of the recommendations.
+3. **Age** : Enter your age, in years. It must be an integer between 1 and 120. It is used for the computation of the recommendations.
 4. **Sex** : Check either Male or Female. It is a binary choice, unrelated to the gender, as nutrition tables take the sexual dimorphism of metabolism as a criterion.
-5. **Weight** : Enter your weight, in kilograms. It must be a positive whole number. It is used for the computation of the recommendations.
+5. **Weight** : Enter your weight, in kilograms. It must be a positive integer
+. It is used for the computation of the recommendations.
 6. **Email** : Enter your e-mail in order to receive an message from us with your recommendations inside.
 7. **Activity** : Check the radio button which describes the most your job, i.e. mainly seated, seated and standing or mainly standing. It is used for the computation of the recommendations.
-8. **Days** : Enter the number of days over which you want to evaluate your food consumption. It must be a positive whole number.
+8. **Days** : Enter the number of days over which you want to evaluate your food consumption. It must be a positive integer.
 
 If input data do not correspond to the criteria, the fields concerned will be reset and displayed in red.
 
@@ -160,12 +177,57 @@ Once you added all the products that make up your diet you can press the **Valid
 
 ![png](./image/screen_quantities.png)
 
+This screen is dedicated to the entry of quantities consumed by products. Each value has to be input individually, as a positive integer in grams or mililiters, according if it is solid food or beverages. If by mistake there is one or more unwanted products, it is possible to leave the quantity at 0 instead of returning to the [Product Screen](#4-product-screen) to remove it. In order to save a quantity, it is necessary to press the **Add** button of each product.
+
+**_Bug report_** There is a display bug with the **Add** button. The *on_press* animation happens on another button of the list, for unknown reasons. However, it is indeed the button you pressed which will save the quantity value of its corresponding product.
+
+Example of filled in quantities :
+![png](./image/screen_quantities_filled.png)
+
+When all desired quantities are entered, you can press the **Validate** button.
+
+![png](./image/screen_quantities_validate.png)
 
 ### 6. Final Screen
 
+![png](./image/screen_results.PNG)
 
+This is the final screen of this application. While the screen looks like the image above, the application is computing the Nutri-Scores. *Wait, do not press other buttons to avoid crashing the application !*
+
+Finally, the results will be displayed as in the image below.
+
+![png](./image/screen_results_grades.PNG)
 
 ### 7. E-mail
+
+If you completed your profile, you now have received an e-mail. Check your spam if you did not received it yet.
+
+The E-mail is organized in several categories.
+
+#### 1. Nutri-Score
+
+This is a reminder of the Nutri-Scores.
+
+![png](./image/email_1.PNG)
+
+#### 2. Recommendation
+
+This is recommendations according to your diet. The reference values come from <a href="http://www.sge-ssn.ch/fr/science-et-recherche/denrees-alimentaires-et-nutriments/recommandations-nutritionnelles/valeurs-de-reference-dach/" target="_blanck"
+	>Société Suisse de Nutrition (SSN)</a>. These recommendations are not for medical use and have been computed from <a href="https://world.openfoodfacts.org/" target="_blanck">	Open Food Facts</a> database.
+
+![png](./image/email_2.PNG)
+
+#### 3. Healthier product
+
+These are recommendations concerning the choice of your products. According to its category, it is determined if a product is the best one or if there is a better product. If so, this better product is suggested to you.
+
+![png](./image/email_3.PNG)
+
+#### 4. Selected products
+
+This is a reminder of the products you selected. They are linked to their page on *OpenFoodFacts*. You are strongly encouraged to look at these pages and correct/complete them if you find mistakes. That will let you improve *OpenFoodFacts* database, and therefore, this application.
+
+![png](./image/email_4.PNG)
 
 
 ## Demo

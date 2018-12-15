@@ -33,7 +33,7 @@ title: App
 
 Select your operating system to download  the compatible application :
 
-* <a href="https://drive.google.com/file/d/1GDDy9TQdLZJNLAZzpTE9X7SElZ3zKvsT/view?usp=sharing" download>Windows</a>  <span class="badge badge-success">Available</span>
+* <a href="https://drive.google.com/uc?export=download&id=1GDDy9TQdLZJNLAZzpTE9X7SElZ3zKvsT" download>Windows</a>  <span class="badge badge-success">Available</span>
 * <a href="./404.html" target="_blanck">Linux</a>  <span class="badge badge-info">Not Available</span>
 * <a href="./404.html" target="_blanck">OSX</a>  <span class="badge badge-info">Not Available</span>
 * <a href="./404.html" target="_blanck">Android</a>  <span class="badge badge-info">Not Available</span>

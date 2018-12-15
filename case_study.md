@@ -31,15 +31,35 @@ Weight: 54 kg
 Activity: low
 
 ## Diet summary
-| Food        | Quantity
+| Breakfast|Quantity
 | ------|-----|
-|a|b
+|Cereals|55
+|Soy milk|200
+|Citrus juice|200
 
-| Beverages        | Quantity
+|Lunch|Quantity
 | ------|-----|
-|water|1500
-|citrus juice|200
-|soy milk|200
+|Lettuce|160
+|Tomato|40
+|Cucumber|40
+|Canned corn|40
+|Carrot|40
+|Pumpkin seed|10
+|Olive oil|10
+|Vinegar|5
+
+|Evening|Quantity
+| ------|-----|
+|Polenta|100
+|Milk|50
+|Carrot|60
+|Tomato|40
+|Yoghurt|125
+|Chocolate|20
+
+|Other beverages|Quantity
+| ------|-----|
+|Water|1500
 
 ## Results
 

@@ -8,7 +8,7 @@ title: App
       <a class="page-link" href="#" tabindex="-1">Previous</a>
     </li>
     <li class="page-item"><a class="page-link" href="#">User guide</a></li>
-    <li class="page-item"><a class="page-link" href="./case_study.html">Telling Story</a></li>
+    <li class="page-item"><a class="page-link" href="./case_study.html">Storytelling</a></li>
     <li class="page-item">
       <a class="page-link" href="./case_study.html">Next</a>
     </li>

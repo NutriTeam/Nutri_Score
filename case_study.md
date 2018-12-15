@@ -22,15 +22,16 @@ tite: Case study
 This Thursday, Rémi started the day with a bowl of cereals, whole wheat biscuits that he sprinkled with soy milk. He also drinks a glass of citrus juice. After this quick breakfast, he takes the bus to school. He sits all day long, relatively static. At noon, he heads to his favourite cafeteria and eats a salad of various raw vegetables and drizzles them with a little sauce. When he returns home at the end of the day, he gives in to the temptation of chocolate and eats a few squares. The evening meal will be made up of polenta accompanied by a recipe of beans, carrots and tomatoes. Before going to bed, he will still eat a plain yogurt.
 
 ## Profile summary
+In the evening, Rémi decided to calculate his NutriScore using the application he had downloaded from Github. It starts by entering the information that the application requires.
+
 Age: 23
-
 Sex: Male
-
 Weight: 54 kg
-
 Activity: low
 
 ## Diet summary
+Then he summarizes what he ate during the day and enters the food one after the other into the database.
+
 | Breakfast|Quantity
 | ------|-----|
 |Cereals|55
@@ -62,6 +63,7 @@ Activity: low
 |Water|1500
 
 ## Results
+After waiting a few seconds, he receives an email giving him the results of his test.
 
 
 

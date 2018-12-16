@@ -5,7 +5,7 @@ title: NutriScore
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-end">
     <li class="page-item">
-      <a class="page-link" href="#">Previous</a>
+      <a class="page-link" href="./Milestone_2.html">Previous</a>
     </li>
     <li class="page-item"><a class="page-link" href="./Milestone_2.html">Cleaning / Filling process</a></li>
     <li class="page-item"><a class="page-link" href="#">NutriScore visualisation</a></li>

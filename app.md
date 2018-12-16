@@ -211,19 +211,19 @@ This is a reminder of the Nutri-Scores.
 This is recommendations according to the diet. The reference values come from <a href="http://www.sge-ssn.ch/fr/science-et-recherche/denrees-alimentaires-et-nutriments/recommandations-nutritionnelles/valeurs-de-reference-dach/" target="_blanck"
 	>Société Suisse de Nutrition (SSN)</a>. These recommendations are not for medical use and have been computed from <a href="https://world.openfoodfacts.org/" target="_blanck">	Open Food Facts</a> database.
 
-<p style="text-align:center;"><img src="./image/email_2.PNG" alt = "Email 2" class="img_app"></p>
+<p style="text-align:center;"><img src="./image/email_2.PNG" alt = "Email 2"></p>
 
 #### 3. Healthier product
 
 These are recommendations concerning the choice of products. According to its category, it is determined if a product is the best one or if there is a better product. If so, this better product is suggested.
 
-<p style="text-align:center;"><img src="./image/email_3.PNG" alt = "Email 3" class="img_app"></p>
+<p style="text-align:center;"><img src="./image/email_3.PNG" alt = "Email 3"></p>
 
 #### 4. Selected products
 
 This is a reminder of the products selected. They are linked to their page on *OpenFoodFacts*. It is strongly encouraged to look at these pages and correct/complete them if mistakes are found. That will improve *OpenFoodFacts* database, and therefore, this application.
 
-<p style="text-align:center;"><img src="./image/email_4.PNG" alt = "Email 4" class="img_app"></p>
+<p style="text-align:center;"><img src="./image/email_4.PNG" alt = "Email 4"></p>
 
 
 ## Demo

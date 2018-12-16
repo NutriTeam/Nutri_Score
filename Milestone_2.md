@@ -15,8 +15,8 @@ title: Data
   </ul>
 </nav>
                                                 
-## Data Visualisation
-### Histograms
+# Data Visualisation
+## Histograms
 We will now plot histograms of the data, as well as scatterplots and correlations. As there are numerous different histograms to plot, we serialize this process.
 
 
@@ -65,7 +65,7 @@ The energy histogram is a bit more spread in higher values. Both fruits/vegetabl
 
 One can see that salt and sodium content may represent a power law, caracterised by the straight segment. Fiber and sugar also have somehow a similar aspect. On the contrary, for proteins, fats and saturated fats, one will be able observe a horizontal line at the beginning and a drop in the counts at the end. 
 
-### Correlations
+## Correlations
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -238,7 +238,7 @@ Saturated fat is highly correlated to fat as the first is a subcategory of the s
 Sodium and salt are perfectly correlated as the salt/sodium ratio is fixed, with a proportion of 2.5.
 Both fruits/vegs/nuts contents, real and estimated, are perfectly correlated due to the cleaning. Estimated fruits content has a moderated negative correlation with energy, fat and saturated fat. But it is interesting to notice that both fruits/veg/nuts and sugar contents and are not correlated according to these data even if, in the reality, the fruits/veg/nuts content increases sugars content of a product. 
 
-### Scatter plot
+## Scatter plot
 ![png](./image/output_55_0.png)
 
 
@@ -265,7 +265,7 @@ One can observe that the most important cleaning of the database occurs before i
 ![png](./image/output_57_0.png)
 
 
-The dirty scatter plot indicates that some product have a higher value of saturated fat than the value of total fat, which is of course impossible. As the criterion used in Nutri-Score is the amount of saturated fat, we then set for erroneous product the amount of fat up to the amount of saturated fat. This is a conservative way of cleaning as it tends to penalize products.
+The dirty scatter plot indicates that some product have a higher value of saturated fat than the value of total fat, which is of course impossible. As the criterion used in NutriScore is the amount of saturated fat, we then set for erroneous product the amount of fat up to the amount of saturated fat. This is a conservative way of cleaning as it tends to penalize products.
 
 ![png](./image/output_59_0.png)
 

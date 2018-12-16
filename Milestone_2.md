@@ -414,8 +414,4 @@ We also discovered some absurdities in the calculation of NutriScore by Openfood
 
 What is more, the fruits/vegetables/nuts estimation is difficult to handle with, as there is absolutely no defined convention. Most of this classification has to be done manually when the product is entered in the database.
 
-### Information about food additive and food recommendation
-
-We found two sources that provided us information about <a href="https://pages.rts.ch/emissions/abe/1371092-liste-des-principaux-additifs-alimentaires.html">food additives [in French / from RTS Radio Télévision Suisse</a> and about <a href="http://www.sge-ssn.ch/fr/science-et-recherche/denrees-alimentaires-et-nutriments/recommandations-nutritionnelles/valeurs-de-reference-dach/">food recommandations [in French / from SSN Société Suisse de Nutrition]</a>. The latter were used in order to be able to return accurate recommandations to the users.
-
 

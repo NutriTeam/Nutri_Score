@@ -36,21 +36,23 @@ One can observe that the products graded C/D/E have very similar properties. The
 As stated above, we developped our NutriScore computation algorithm using the exact criteria specified in the official documents from the french Ministry of Agriculture. As the products effective grade are indicated in the database, we can quantify the accuracy of the algorithm and try to increase its efficiency.
 
 In general, except for exceptions, the score is computed in this manner : <br>
-ScoreBeverages =  Energy + Sugar - Fruits<br>ScoreNonBeverages = NegativePoints - PositivePoints = (Energy + Fat + Sugar + Sodium) - (Fruits + Fibers + Proteins)<br>
 
-                                                    For beverages grades:
-                                                    Water ==>  A
-                                                    ScoreBeverages <= 1 ==> B
-                                                    1 < ScoreBeverages <= 5 ==> C
-                                                    5 < ScoreBeverages <= 9 ==> D
-                                                    9 < ScoreBeverages <= 20 ==> E
+    ScoreBeverages =  Energy + Sugar - Fruits
+    ScoreNonBeverages = NegativePoints - PositivePoints = (Energy + Fat + Sugar + Sodium) - (Fruits + Fibers + Proteins)
 
-                                                    For non-beverages grades:
-                                                    ScoreNonBeverages < 0 ==> A
-                                                    0 < ScoreNonBeverages <= 2 ==> B
-                                                    2 < ScoreNonBeverages <= 10 ==> C
-                                                    10 < ScoreNonBeverages <= 18 ==> D
-                                                    18 < ScoreNonBeverages <= 40 ==> E
+                                      For beverages grades:
+                                      Water ==>  A
+                                      ScoreBeverages <= 1 ==> B
+                                      1 < ScoreBeverages <= 5 ==> C
+                                      5 < ScoreBeverages <= 9 ==> D
+                                      9 < ScoreBeverages <= 20 ==> E
+
+                                      For non-beverages grades:
+                                      ScoreNonBeverages < 0 ==> A
+                                      0 < ScoreNonBeverages <= 2 ==> B
+                                      2 < ScoreNonBeverages <= 10 ==> C
+                                      10 < ScoreNonBeverages <= 18 ==> D
+                                      18 < ScoreNonBeverages <= 40 ==> E
                                                     
 
     83.72 % of product in our final database have NutriScore provided by OpenFoodFacts

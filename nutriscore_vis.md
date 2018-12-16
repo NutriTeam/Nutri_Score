@@ -15,45 +15,44 @@ title: NutriScore
   </ul>
 </nav>
 
-## NutriScore visualisation
+# NutriScore Visualisation
 
-#### Beverages products analysis
+## Beverages products analysis
 
 ![png](./image/output_65_0.png)
 
 
 Here, one can see the scatter plot for product that will be considered as beverages by the NutriScore algorithm. One can observe that most of beverages have low-level of fats but are more sparse concerning sugars and proteins. One can see that the product graded E (worst grade) have the largest value in terms of energy, sugars and proteins and frequently contain less than 50% of fruits/vegetables/nuts. The differences between the other grades (A, B, C & D) are less noticeable. If we had to separate them using machine learning techniques, it would have been difficult. This is why we preferred to directly develop a calculation algorithm based on the official Nutri-Score computation rules.
 
-#### Non-beverages products analysis
+## Non-beverages products analysis
 
 ![png](./image/output_68_0.png)
 
 
 One can observe that the products graded C/D/E have very similar properties. They show a large scale of values for what concerns fats and sugars. But one should note, looking at the fruits/veg/nuts content vs energy plot, that it is possible to differentiate the grades according to their energy content, as one can observe several layers. Grade A have a larger amount of fiber, which seems to make sense, as fiber give negative points for the Nutri-Score (NB : the lower the NutriScore, the better the grade).
 
-### NutriScore - Computation
+## NutriScore - Computation
 
 As stated above, we developped our NutriScore computation algorithm using the exact criteria specified in the official documents from the french Ministry of Agriculture. As the products effective grade are indicated in the database, we can quantify the accuracy of the algorithm and try to increase its efficiency.
 
 In general, except for exceptions, the score is computed in this manner : <br>
-ScoreBeverages =  Energy + Sugar - Fruits<br>
-ScoreNonBeverages = NegativePoints - PositivePoints = (Energy + Fat + Sugar + Sodium) - (Fruits + Fibers + Proteins)<br>
+ScoreBeverages =  Energy + Sugar - Fruits<br>ScoreNonBeverages = NegativePoints - PositivePoints = (Energy + Fat + Sugar + Sodium) - (Fruits + Fibers + Proteins)<br>
 
-For beverages grades:<br>
-Water ==>  A<br>
-ScoreBeverages <= 1 ==> B<br>
-1 < ScoreBeverages <= 5 ==> C<br>
-5 < ScoreBeverages <= 9 ==> D<br>
-9 < ScoreBeverages <= 20 ==> E<br>
+    For beverages grades:<br>
+    Water ==>  A<br>
+    ScoreBeverages <= 1 ==> B<br>
+    1 < ScoreBeverages <= 5 ==> C<br>
+    5 < ScoreBeverages <= 9 ==> D<br>
+    9 < ScoreBeverages <= 20 ==> E<br>
 
-For non-beverages grades:<br>
-ScoreNonBeverages < 0 ==> A<br>
-0 < ScoreNonBeverages <= 2 ==> B<br>
-2 < ScoreNonBeverages <= 10 ==> C<br>
-10 < ScoreNonBeverages <= 18 ==> D<br>
-18 < ScoreNonBeverages <= 40 ==> E<br>
+    For non-beverages grades:<br>
+    ScoreNonBeverages < 0 ==> A<br>
+    0 < ScoreNonBeverages <= 2 ==> B<br>
+    2 < ScoreNonBeverages <= 10 ==> C<br>
+    10 < ScoreNonBeverages <= 18 ==> D<br>
+    18 < ScoreNonBeverages <= 40 ==> E<br>
 
-    83.72 % of product in our final database have Nutri-Score provided by OpenFoodFacts
+    83.72 % of product in our final database have NutriScore provided by OpenFoodFacts
     
 <div>
 <style scoped>
@@ -162,6 +161,6 @@ The fact that the score accuracy is much lower than the grade accuracy might be 
 
 One can note the very high accuracy for beverages and non-beverages according to the grade. The algorithm raises low amount of errors that are due to missing values. Moreover, one can estimate that some information entered in the database is still inaccurate, even if we tried to complete and to correct it.
 
-We also discovered some absurdities in the calculation of NutriScore by Openfoodfacts. For instance, in the case of chocolate milk drink powders, the rating is done as a solid, because chocolate is a powder, but the information on which Openfoodfact's Nutriscore is based is the information of the diluted powder. Thus, powdered chocolate has the double advantage of being considered as a solid, but of having its diluted values used. This results in an A or B score, which is ridiculous given the nutritional value of chocolate milk drinks.
+We also discovered some absurdities in the calculation of NutriScore by Openfoodfacts. For instance, in the case of chocolate milk drink powders, the rating is done as a solid, because chocolate is a powder, but the information on which Openfoodfact's Nutriscore is based is the information of the diluted powder. Thus, powdered chocolate has the double advantage of being considered as a solid, but of having its diluted values used. This results in an A or B grade, which is ridiculous given the nutritional value of chocolate milk drinks.
 
 What is more, the fruits/vegetables/nuts estimation is difficult to handle with, as there is absolutely no defined convention. Most of this classification has to be done manually when the product is entered in the database.

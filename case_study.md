@@ -35,36 +35,30 @@ Activity: low
 ## Diet summary
 Then he summarizes what he ate during the day and enters the food one after the other into the database.
 
-| Breakfast|Quantity
-| ------|-----|
-|Cereals|55
-|Soy milk|200
-|Citrus juice|200
+|Breakfast|Quantity|Lunch|Quantity|Evening|Quantity|Other beverages|Quantity
+| ------|-----| ------|-----| ------|-----| ------|-----|
+|Cereals|55|Lettuce|160|Polenta|100|Water|1500
+|Soy milk|200|Tomato|40|Milk|50
+|Citrus juice|200|Cucumber|40|Carrot|60
+|-|-|Canned corn|40|Beans|150
+|-|-|Carrot|40|Tomato|40
+|-|-|Pumpkin seed|10|Yoghurt|125
+|-|-|Olive oil|10|Chocolate|20
+|-|-|Vinegar|5
 
-|Lunch|Quantity
-| ------|-----|
-|Lettuce|160
-|Tomato|40
-|Cucumber|40
-|Canned corn|40
-|Carrot|40
-|Pumpkin seed|10
-|Olive oil|10
-|Vinegar|5
 
-|Evening|Quantity
-| ------|-----|
-|Polenta|100
-|Milk|50
-|Carrot|60
-|Beans|150
-|Tomato|40
-|Yoghurt|125
-|Chocolate|20
 
-|Other beverages|Quantity
-| ------|-----|
-|Water|1500
+
+
+
+
+
+
+
+
+
+
+
 
 ## Results
 After waiting a few seconds, he receives an email giving him the results of his test.

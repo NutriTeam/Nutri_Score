@@ -38,19 +38,20 @@ As stated above, we developped our NutriScore computation algorithm using the ex
 In general, except for exceptions, the score is computed in this manner : <br>
 ScoreBeverages =  Energy + Sugar - Fruits<br>ScoreNonBeverages = NegativePoints - PositivePoints = (Energy + Fat + Sugar + Sodium) - (Fruits + Fibers + Proteins)<br>
 
-    For beverages grades:<br>
-    Water ==>  A<br>
-    ScoreBeverages <= 1 ==> B<br>
-    1 < ScoreBeverages <= 5 ==> C<br>
-    5 < ScoreBeverages <= 9 ==> D<br>
-    9 < ScoreBeverages <= 20 ==> E<br>
+                                                    For beverages grades:
+                                                    Water ==>  A
+                                                    ScoreBeverages <= 1 ==> B
+                                                    1 < ScoreBeverages <= 5 ==> C
+                                                    5 < ScoreBeverages <= 9 ==> D
+                                                    9 < ScoreBeverages <= 20 ==> E
 
-    For non-beverages grades:<br>
-    ScoreNonBeverages < 0 ==> A<br>
-    0 < ScoreNonBeverages <= 2 ==> B<br>
-    2 < ScoreNonBeverages <= 10 ==> C<br>
-    10 < ScoreNonBeverages <= 18 ==> D<br>
-    18 < ScoreNonBeverages <= 40 ==> E<br>
+                                                    For non-beverages grades:
+                                                    ScoreNonBeverages < 0 ==> A
+                                                    0 < ScoreNonBeverages <= 2 ==> B
+                                                    2 < ScoreNonBeverages <= 10 ==> C
+                                                    10 < ScoreNonBeverages <= 18 ==> D
+                                                    18 < ScoreNonBeverages <= 40 ==> E
+                                                    
 
     83.72 % of product in our final database have NutriScore provided by OpenFoodFacts
     

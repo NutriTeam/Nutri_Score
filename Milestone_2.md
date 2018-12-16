@@ -10,7 +10,7 @@ title: Data
     <li class="page-item"><a class="page-link" href="#">Cleaning / Filling process</a></li>
     <li class="page-item"><a class="page-link" href="./nutriscore_vis.html">NutriScore visualisation</a></li>
     <li class="page-item disabled">
-      <a class="page-link" href=#">Next</a>
+      <a class="page-link" href="#">Next</a>
     </li>
   </ul>
 </nav>

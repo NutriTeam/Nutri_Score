@@ -60,7 +60,7 @@ This is the main profile screen. You have now several options :
 
 Pressing the **Create New Profile** button will let you complete a settings form in order to store the information needed for the recommendation e-mail.
 
-**_Note !_** All your personal information is stored locally in the file `AppFolder/data/profile.csv`. Every piece of information can be modified directly by end. *Be careful not to corrupt data.* **No information is collected by NutriTeam as everything is dealt with locally.**
+**_Note !_** All your personal information is stored locally in the file `AppFolder/data/profile.csv`. Every piece of information can be modified directly by hand. *Be careful not to corrupt data.* **No information is collected by NutriTeam as everything is dealt with locally.**
 
 #### 2. Select profile
 
@@ -82,7 +82,7 @@ If you choose not to create a profile, you can press the **Pass** button which w
 
 <p style="text-align:center;"><img src="./image/screen_profile_updating.PNG" alt = "Screen Profile Updating" class="img_app"></p>
 
-As the database of *OpenFoodFacts* grows and improves daily, you might want to update the local database frequently, which can be done pressing this button. The button turns blue when it is updating. *Wait, do not press other buttons to avoid crashing the application !* Then, it turns green when the update is finished.
+As the database of *OpenFoodFacts* grows and improves daily, you might want to update the local database frequently, which can be done pressing this button. The button turns blue when it is updating. *Wait, do not press other buttons to avoid crashing the application !* Then, it turns green when the update is finished. Our team will update the database once per month.
 
 <p style="text-align:center;"><img src="./image/screen_profile_update.PNG" alt = "Screen Profile Update" class="img_app"></p>
 
@@ -139,7 +139,7 @@ Example :
 
 <p style="text-align:center;"><img src="./image/screen_product_code.PNG" alt = "Screen Product code" class="img_app"></p>
 
-In case no product matches your query, a warning message is displayed.
+In case no product matches your query, a warning message is displayed. If you can't find your product, there are several reasons. Maybe you misspelled it. The product is not in the OpenFoodFacts database. Either our completion and cleaning algorithm has ruled out eliminating the product because either too much information is missing in the OpenFoodFacts database or the product does not contain any tags in the database. Check on OpenFoodFacts if your product exists and if it is complete according to our criteria. If this is not the case, we encourage you to modify the product in question so that we can process it properly and you can find your product in the near future.
 
 <p style="text-align:center;"><img src="./image/screen_product_warning.PNG" alt = "Screen Product Warning" class="img_app"></p>
 
@@ -207,7 +207,7 @@ The E-mail is organized in several categories.
 
 This is a reminder of the Nutri-Scores.
 
-<p style="text-align:center;"><img src="./image/email_1.PNG" alt = "Email 1" class="img_app"></p>
+<p style="text-align:center;"><img src="./image/email_1.PNG" alt = "Email 1"></p>
 
 #### 2. Recommendation
 

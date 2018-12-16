@@ -40,25 +40,11 @@ Then he summarizes what he ate during the day and enters the food one after the 
 |Cereals|55|Lettuce|160|Polenta|100|Water|1500
 |Soy milk|200|Tomato|40|Milk|50
 |Citrus juice|200|Cucumber|40|Carrot|60
-|-|-|Canned corn|40|Beans|150
-|-|-|Carrot|40|Tomato|40
-|-|-|Pumpkin seed|10|Yoghurt|125
-|-|-|Olive oil|10|Chocolate|20
-|-|-|Vinegar|5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|||Canned corn|40|Beans|150
+|||Carrot|40|Tomato|40
+|||Pumpkin seed|10|Yoghurt|125
+|||Olive oil|10|Chocolate|20
+|||Vinegar|5
 
 ## Results
 After waiting a few seconds, he receives an email giving him the results of his test.

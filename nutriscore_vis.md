@@ -10,7 +10,7 @@ title: NutriScore
     <li class="page-item"><a class="page-link" href="./Milestone_2.html">Cleaning / Filling process</a></li>
     <li class="page-item"><a class="page-link" href="#">NutriScore visualisation</a></li>
     <li class="page-item disabled">
-      <a class="page-link" href=#" tabindex="-1">Next</a>
+      <a class="page-link" href="#" tabindex="-1">Next</a>
     </li>
   </ul>
 </nav>

@@ -59,6 +59,7 @@ Then he summarizes what he ate during the day and enters the food one after the 
 |Polenta|100
 |Milk|50
 |Carrot|60
+|Beans|150
 |Tomato|40
 |Yoghurt|125
 |Chocolate|20

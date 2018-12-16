@@ -40,6 +40,7 @@ Then he summarizes what he ate during the day and enters the food one after the 
 |Cereals|55
 |Soy milk|200
 |Citrus juice|200
+
 |Lunch|Quantity
 | ------|-----|
 |Lettuce|160
@@ -50,6 +51,7 @@ Then he summarizes what he ate during the day and enters the food one after the 
 |Pumpkin seed|10
 |Olive oil|10
 |Vinegar|5
+
 |Evening|Quantity
 | ------|-----|
 |Polenta|100
@@ -59,6 +61,7 @@ Then he summarizes what he ate during the day and enters the food one after the 
 |Tomato|40
 |Yoghurt|125
 |Chocolate|20
+
 |Other beverages|Quantity
 | ------|-----|
 |Water|1500
